@@ -103,7 +103,7 @@
       background-image: linear-gradient(blue, hsl(0, 100%, 50%, 0.4), black),
         radial-gradient(circle at center,
           hsl(39, 100%, 50%) 15%, rgb(242, 150, 64) 30%, black 40%, black 80%);
-    
+
 
     }
 
@@ -119,9 +119,19 @@
       width: 100%;
       height: 100%;
       border: 2px solid black;
-      background-image: radial-gradient(hsl(0, 100%, 50%, 0.2), hsl(39, 100%, 50%, 0.2)),
-        linear-gradient(hsl(120, 100%, 25%, 0.8), hsl(0, 0%, 100%, 0.2));
+      background-image: radial-gradient(hsla(232, 100%, 51%, 0.8), hsl(326, 95%, 53%)),
+        linear-gradient(hsla(0, 100%, 50%, 0.8), hsla(119, 100%, 51%, 0.2));
       background-size: 50px 50px;
+
+    }
+
+    .red-dots {
+      width: 100%;
+      height: 100%;
+      border: 2px solid black;
+      background-image: radial-gradient(rgb(255, 255, 255) 20%, rgb(227, 62, 62) 20%);
+      /* linear-gradient(hsla(0, 100%, 50%, 0.8), hsla(119, 100%, 51%, 0.2)); */
+      background-size: 100px 100px;
 
     }
   </style>
@@ -140,10 +150,10 @@
       <a href="#sun-1">SUN-TSU-2 </a>
       <a href="#ot">ORANGE TRIP </a>
       <a href="#me">MESH </a>
+      <a href="#rd">RED DOTS</a>
       <!-- <a href="#p">GREEN CHILLI</a>
 
 
-      <a href="#g">GOLDEN RINGS</a>
       <a href="#p">GREEN CHILLI</a>
       <a href="#pw">PURPLE WHITES</a>
       <a href="#sq">SQUARE MENACE</a> -->
@@ -163,7 +173,8 @@
       <div class="sun-zu" id="sun"></div>
       <div class="sun-zu-1" id="sun-1"></div>
       <div class="orange-trip" id="ot"></div>
-      <div class="mesh" id="me"></div>
+      <div class="iron-mesh" id="me"></div>
+      <div class="red-dots" id="rd"></div>
     </main>
   </div>
 </body>
