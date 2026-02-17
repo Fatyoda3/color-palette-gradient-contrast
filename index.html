@@ -82,7 +82,47 @@
       height: 100%;
       border: 2px solid black;
       background-image: linear-gradient(45deg, rgb(2, 124, 2, 0.3) 60%, rgb(194, 211, 10, 0.3) 20%), linear-gradient(90deg, green 60%, rgb(194, 211, 10) 20%);
+
+      /* linear-gradient(45deg, rgb(2, 124, 2, 0.3) 60%, rgb(194, 211, 10, 0.3) 20%), linear-gradient(90deg, rgb(0, 98, 128) 60%, rgb(194, 211, 10) 20%) */
       background-size: 50px 50px;
+    }
+
+    .sun-zu {
+      width: 100%;
+      height: 100%;
+      border: 2px solid black;
+      background-image: linear-gradient(rgb(2, 2, 67), hsl(0, 100%, 50%, 0.3), rgb(12, 12, 12)),
+        radial-gradient(circle at center,
+          rgb(130, 85, 1) 15%, rgb(242, 150, 64) 26%, rgb(46, 22, 22) 40%, black 80%)
+    }
+
+    .sun-zu-1 {
+      width: 100%;
+      height: 100%;
+      border: 2px solid black;
+      background-image: linear-gradient(blue, hsl(0, 100%, 50%, 0.4), black),
+        radial-gradient(circle at center,
+          hsl(39, 100%, 50%) 15%, rgb(242, 150, 64) 30%, black 40%, black 80%);
+    
+
+    }
+
+    .orange-trip {
+      width: 100%;
+      height: 100%;
+      border: 2px solid black;
+      background-image: radial-gradient(red, orange);
+      background-size: 50px 50px;
+    }
+
+    .iron-mesh {
+      width: 100%;
+      height: 100%;
+      border: 2px solid black;
+      background-image: radial-gradient(hsl(0, 100%, 50%, 0.2), hsl(39, 100%, 50%, 0.2)),
+        linear-gradient(hsl(120, 100%, 25%, 0.8), hsl(0, 0%, 100%, 0.2));
+      background-size: 50px 50px;
+
     }
   </style>
 </head>
@@ -96,8 +136,11 @@
       <a href="#sq">SQUARE MENACE</a>
       <a href="#bp">BABY PINK</a>
       <a href="#bc">CHECKERS</a>
+      <a href="#sun">SUN-TSU </a>
+      <a href="#sun-1">SUN-TSU-2 </a>
+      <a href="#ot">ORANGE TRIP </a>
+      <a href="#me">MESH </a>
       <!-- <a href="#p">GREEN CHILLI</a>
-      <a href="#sq">SQUARE MENACE</a>
 
 
       <a href="#g">GOLDEN RINGS</a>
@@ -117,6 +160,10 @@
       <div class="square-menace" id="sq"></div>
       <div class="baby-pink" id="bp"></div>
       <div class="black-checkers" id="bc"></div>
+      <div class="sun-zu" id="sun"></div>
+      <div class="sun-zu-1" id="sun-1"></div>
+      <div class="orange-trip" id="ot"></div>
+      <div class="mesh" id="me"></div>
     </main>
   </div>
 </body>
